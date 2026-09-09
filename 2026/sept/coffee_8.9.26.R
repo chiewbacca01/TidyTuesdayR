@@ -43,6 +43,4 @@ p <- cappuccino_index |>
 
 ggsave(
   plot = p,
-  filename = "coffee",
-  device="tiff")
-)
+  filename = "coffee.jpeg")
